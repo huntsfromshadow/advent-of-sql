@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:latest 
+    environment:
+      POSTGRES_PASSWORD: adventofsql
+      POSTGRES_USER: elf
+    ports:
+      - "1225:5432"
+
+ 
